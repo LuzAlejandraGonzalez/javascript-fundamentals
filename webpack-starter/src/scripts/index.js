@@ -1,4 +1,6 @@
 
-let els = document.getElementsByClassName('p1');
+let element = document.getElementById('first');
 
-console.log(els);
+element.style.color = 'blue';
+
+console.log(element);
