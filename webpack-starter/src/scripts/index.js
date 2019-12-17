@@ -1,6 +1,4 @@
 
-let element = document.getElementById('first');
+let car = newCar;
 
-element.style.color = 'blue';
-
-console.log(element);
+console.log('continuing...');
