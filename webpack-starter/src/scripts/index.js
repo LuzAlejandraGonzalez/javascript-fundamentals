@@ -1,6 +1,7 @@
 
-//import { Car } from './models/car.js';
+let intervalId = setInterval(function(){
+    console.log('1 second passed');
+},1000);
 
-//year = 1956
-
-console.log(innerWidth);
+//if need to cancel...
+clearInterval(intervalId);
