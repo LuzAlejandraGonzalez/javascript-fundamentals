@@ -1,6 +1,7 @@
 
 try{
-    let car = null;
+    //code
+    throw new Error('my custom error');
 }
 catch(error){
     console.log('error: ', error);
